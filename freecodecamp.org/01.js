@@ -25,3 +25,7 @@ a = 7;
 var b;
 b = a;
 // Only change code below this line
+
+//05 test
+
+var a = 9;
