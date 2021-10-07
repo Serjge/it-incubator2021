@@ -16,3 +16,12 @@ var myName;
 var a;
 a = 7;
 // Only change code below this line
+
+//04 test
+
+// Setup
+var a;
+a = 7;
+var b;
+b = a;
+// Only change code below this line
