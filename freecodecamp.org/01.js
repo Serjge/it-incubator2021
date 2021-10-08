@@ -57,3 +57,7 @@ titleCaseOver = 9000;
 //08 test
 
 var sum = 10 + 10;
+
+// 09 test
+
+var difference = 45 - 33;
