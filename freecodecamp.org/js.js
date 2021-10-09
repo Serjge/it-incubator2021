@@ -199,4 +199,165 @@ myStr += someAdjective;
 
 // 30 test
 
+// Setup
+var lastNameLength = 0;
+var lastName = 'Lovelace';
+
+// Only change code below this line
+
+lastNameLength = lastName.length;
+
 // 31 test
+
+// Setup
+var firstLetterOfLastName = '';
+var lastName = 'Lovelace';
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; // Change this line
+
+// 32 test
+
+// Setup
+var myStr = 'Jello World';
+
+// Only change code below this line
+myStr = 'Hello World'; // Change this line
+// Only change code above this line
+
+// 33 test
+
+// Setup
+var lastName = 'Lovelace';
+
+// Only change code below this line
+var thirdLetterOfLastName = lastName[2]; // Change this line
+
+// 34 test
+
+// Setup
+var lastName = 'Lovelace';
+
+// Only change code below this line
+var thirdLetterOfLastName = lastName[2]; // Change this line
+
+// 35 test
+
+// Setup
+var lastName = 'Lovelace';
+
+// Only change code below this line
+var secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+
+// 36 test
+
+var myNoun = 'dog';
+var myAdjective = 'big';
+var myVerb = 'ran';
+var myAdverb = 'quickly';
+
+// Only change code below this line
+var wordBlanks =
+  'The ' + myAdjective + ' ' + myNoun + ' ' + myVerb + ' ' + myAdverb; // Change this line
+// Only change code above this line
+
+// 37 test
+
+// Only change code below this line
+var myArray = ['hi', 1, 2];
+
+// 38 test
+
+// Only change code below this line
+var myArray = [
+  ['Sergey', 25],
+  ['Oleg', 25],
+];
+
+// 39 test
+
+var myArray = [50, 60, 70];
+
+var myData = myArray[0];
+
+// 40 test
+
+// 41 test
+
+// 42 test
+
+// 43 test
+
+// 44 test
+
+// 45 test
+
+// 46 test
+
+// 47 test
+
+// 48 test
+
+// 49 test
+
+// 50 test
+
+// 51 test
+
+// 52 test
+
+// 53 test
+
+// 54 test
+
+// 55 test
+
+// 56 test
+
+// 57 test
+
+// 58 test
+
+// 59 test
+
+// 60 test
+
+// 61 test
+
+// 62 test
+
+// 63 test
+
+// 64 test
+
+// 65 test
+
+// 66 test
+
+// 67 test
+
+// 68 test
+
+// 69 test
+
+// 70 test
+
+// 71 test
+
+// 72 test
+
+// 73 test
+
+// 74 test
+
+// 75 test
+
+// 76 test
+
+// 77 test
+
+// 78 test
+
+// 79 test
+
+// 80 test
