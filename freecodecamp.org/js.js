@@ -282,23 +282,120 @@ var myData = myArray[0];
 
 // 40 test
 
+// Setup
+var myArray = [18, 64, 99];
+
+// Only change code below this line
+myArray[0] = 45;
+
 // 41 test
+
+var myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+var myData = myArray[2][1];
 
 // 42 test
 
+// Setup
+var myArray = [
+  ['John', 23],
+  ['cat', 2],
+];
+
+// Only change code below this line
+
+myArray.push(['dog', 3]);
+
 // 43 test
+
+// Setup
+var myArray = [
+  ['John', 23],
+  ['cat', 2],
+];
+
+// Only change code below this line
+var removedFromMyArray = myArray.pop();
 
 // 44 test
 
+// Setup
+var myArray = [
+  ['John', 23],
+  ['dog', 3],
+];
+
+// Only change code below this line
+var removedFromMyArray = myArray.shift();
+
 // 45 test
+
+// Setup
+var myArray = [
+  ['John', 23],
+  ['dog', 3],
+];
+myArray.shift();
+
+// Only change code below this line
+
+myArray.unshift(['Paul', 35]);
 
 // 46 test
 
+var myList = [];
+
+myList.push(['Chocolate Bar', 155]);
+myList.push(['Chocolate Bar', 155]);
+myList.push(['Chocolate Bar', 155]);
+myList.push(['Chocolate Bar', 155]);
+myList.push(['Chocolate Bar', 155]);
+
 // 47 test
+
+function reusableFunction() {
+  console.log('Hi World');
+}
+
+reusableFunction();
 
 // 48 test
 
+function functionWithArgs(a, b) {
+  console.log(a + b);
+}
+
+functionWithArgs(5, 7);
+
 // 49 test
+
+// Declare the myGlobal variable below this line
+
+function fun1() {
+  // Assign 5 to oopsGlobal Here
+  var oopsGlobal = 5;
+}
+
+// Only change code above this line
+
+function fun2() {
+  var output = '';
+  if (typeof myGlobal != 'undefined') {
+    output += 'myGlobal: ' + myGlobal;
+  }
+  if (typeof oopsGlobal != 'undefined') {
+    output += ' oopsGlobal: ' + oopsGlobal;
+  }
+  console.log(output);
+}
+
+var myGlobal = 10;
+var oopsGlobal = 5;
 
 // 50 test
 
