@@ -399,23 +399,137 @@ var oopsGlobal = 5;
 
 // 50 test
 
+function myLocalScope() {
+  // Only change code below this line
+  var myVar = 'scope';
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
+
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log('outside myLocalScope', myVar);
+
 // 51 test
+
+// Setup
+var outerWear = 'T-Shirt';
+
+function myOutfit() {
+  // Only change code below this line
+
+  var outerWear = 'sweater';
+
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
 
 // 52 test
 
+function timesFive(num) {
+  return num * 5;
+}
+
 // 53 test
+
+// Setup
+var sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+function addFive() {
+  sum = sum + 5;
+}
+// Only change code below this line
+
+// Only change code above this line
+
+addThree();
+addFive();
 
 // 54 test
 
+// Setup
+var processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+processed = processArg(7);
+// Only change code below this line
+
 // 55 test
+
+function nextInLine(arr, item) {
+  // Only change code below this line
+  arr.push(item);
+  var shifted = arr.shift();
+
+  return shifted;
+
+  // Only change code above this line
+}
+
+// Setup
+var testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log('Before: ' + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log('After: ' + JSON.stringify(testArr));
 
 // 56 test
 
+function welcomeToBooleans() {
+  // Only change code below this line
+
+  return true; // Change this line
+
+  // Only change code above this line
+}
+
 // 57 test
+
+function trueOrFalse(wasThatTrue) {
+  // Only change code below this line
+  if (wasThatTrue) {
+    return 'Yes, that was true';
+  }
+  return 'No, that was false';
+
+  // Only change code above this line
+}
 
 // 58 test
 
+// Setup
+function testEqual(val) {
+  if (val == 12) {
+    // Change this line
+    return 'Equal';
+  }
+  return 'Not Equal';
+}
+
+testEqual(10);
+
 // 59 test
+
+// Setup
+function testStrict(val) {
+  if (val === 7) {
+    // Change this line
+    return 'Equal';
+  }
+  return 'Not Equal';
+}
+
+testStrict(10);
 
 // 60 test
 
