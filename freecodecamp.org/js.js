@@ -258,7 +258,7 @@ var myAdverb = 'quickly';
 
 // Only change code below this line
 var wordBlanks =
-  'The ' + myAdjective + ' ' + myNoun + ' ' + myVerb + ' ' + myAdverb; // Change this line
+	'The ' + myAdjective + ' ' + myNoun + ' ' + myVerb + ' ' + myAdverb; // Change this line
 // Only change code above this line
 
 // 37 test
@@ -270,8 +270,8 @@ var myArray = ['hi', 1, 2];
 
 // Only change code below this line
 var myArray = [
-  ['Sergey', 25],
-  ['Oleg', 25],
+	['Sergey', 25],
+	['Oleg', 25],
 ];
 
 // 39 test
@@ -291,10 +291,10 @@ myArray[0] = 45;
 // 41 test
 
 var myArray = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
-  [[10, 11, 12], 13, 14],
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9],
+	[[10, 11, 12], 13, 14],
 ];
 
 var myData = myArray[2][1];
@@ -303,8 +303,8 @@ var myData = myArray[2][1];
 
 // Setup
 var myArray = [
-  ['John', 23],
-  ['cat', 2],
+	['John', 23],
+	['cat', 2],
 ];
 
 // Only change code below this line
@@ -315,8 +315,8 @@ myArray.push(['dog', 3]);
 
 // Setup
 var myArray = [
-  ['John', 23],
-  ['cat', 2],
+	['John', 23],
+	['cat', 2],
 ];
 
 // Only change code below this line
@@ -326,8 +326,8 @@ var removedFromMyArray = myArray.pop();
 
 // Setup
 var myArray = [
-  ['John', 23],
-  ['dog', 3],
+	['John', 23],
+	['dog', 3],
 ];
 
 // Only change code below this line
@@ -337,8 +337,8 @@ var removedFromMyArray = myArray.shift();
 
 // Setup
 var myArray = [
-  ['John', 23],
-  ['dog', 3],
+	['John', 23],
+	['dog', 3],
 ];
 myArray.shift();
 
@@ -359,7 +359,7 @@ myList.push(['Chocolate Bar', 155]);
 // 47 test
 
 function reusableFunction() {
-  console.log('Hi World');
+	console.log('Hi World');
 }
 
 reusableFunction();
@@ -367,7 +367,7 @@ reusableFunction();
 // 48 test
 
 function functionWithArgs(a, b) {
-  console.log(a + b);
+	console.log(a + b);
 }
 
 functionWithArgs(5, 7);
@@ -377,21 +377,21 @@ functionWithArgs(5, 7);
 // Declare the myGlobal variable below this line
 
 function fun1() {
-  // Assign 5 to oopsGlobal Here
-  var oopsGlobal = 5;
+	// Assign 5 to oopsGlobal Here
+	var oopsGlobal = 5;
 }
 
 // Only change code above this line
 
 function fun2() {
-  var output = '';
-  if (typeof myGlobal != 'undefined') {
-    output += 'myGlobal: ' + myGlobal;
-  }
-  if (typeof oopsGlobal != 'undefined') {
-    output += ' oopsGlobal: ' + oopsGlobal;
-  }
-  console.log(output);
+	var output = '';
+	if (typeof myGlobal != 'undefined') {
+		output += 'myGlobal: ' + myGlobal;
+	}
+	if (typeof oopsGlobal != 'undefined') {
+		output += ' oopsGlobal: ' + oopsGlobal;
+	}
+	console.log(output);
 }
 
 var myGlobal = 10;
@@ -400,9 +400,9 @@ var oopsGlobal = 5;
 // 50 test
 
 function myLocalScope() {
-  // Only change code below this line
-  var myVar = 'scope';
-  console.log('inside myLocalScope', myVar);
+	// Only change code below this line
+	var myVar = 'scope';
+	console.log('inside myLocalScope', myVar);
 }
 myLocalScope();
 
@@ -416,12 +416,12 @@ console.log('outside myLocalScope', myVar);
 var outerWear = 'T-Shirt';
 
 function myOutfit() {
-  // Only change code below this line
+	// Only change code below this line
 
-  var outerWear = 'sweater';
+	var outerWear = 'sweater';
 
-  // Only change code above this line
-  return outerWear;
+	// Only change code above this line
+	return outerWear;
 }
 
 myOutfit();
@@ -429,7 +429,7 @@ myOutfit();
 // 52 test
 
 function timesFive(num) {
-  return num * 5;
+	return num * 5;
 }
 
 // 53 test
@@ -438,11 +438,11 @@ function timesFive(num) {
 var sum = 0;
 
 function addThree() {
-  sum = sum + 3;
+	sum = sum + 3;
 }
 
 function addFive() {
-  sum = sum + 5;
+	sum = sum + 5;
 }
 // Only change code below this line
 
@@ -457,7 +457,7 @@ addFive();
 var processed = 0;
 
 function processArg(num) {
-  return (num + 3) / 5;
+	return (num + 3) / 5;
 }
 
 processed = processArg(7);
@@ -466,13 +466,13 @@ processed = processArg(7);
 // 55 test
 
 function nextInLine(arr, item) {
-  // Only change code below this line
-  arr.push(item);
-  var shifted = arr.shift();
+	// Only change code below this line
+	arr.push(item);
+	var shifted = arr.shift();
 
-  return shifted;
+	return shifted;
 
-  // Only change code above this line
+	// Only change code above this line
 }
 
 // Setup
@@ -486,34 +486,34 @@ console.log('After: ' + JSON.stringify(testArr));
 // 56 test
 
 function welcomeToBooleans() {
-  // Only change code below this line
+	// Only change code below this line
 
-  return true; // Change this line
+	return true; // Change this line
 
-  // Only change code above this line
+	// Only change code above this line
 }
 
 // 57 test
 
 function trueOrFalse(wasThatTrue) {
-  // Only change code below this line
-  if (wasThatTrue) {
-    return 'Yes, that was true';
-  }
-  return 'No, that was false';
+	// Only change code below this line
+	if (wasThatTrue) {
+		return 'Yes, that was true';
+	}
+	return 'No, that was false';
 
-  // Only change code above this line
+	// Only change code above this line
 }
 
 // 58 test
 
 // Setup
 function testEqual(val) {
-  if (val == 12) {
-    // Change this line
-    return 'Equal';
-  }
-  return 'Not Equal';
+	if (val == 12) {
+		// Change this line
+		return 'Equal';
+	}
+	return 'Not Equal';
 }
 
 testEqual(10);
@@ -522,11 +522,11 @@ testEqual(10);
 
 // Setup
 function testStrict(val) {
-  if (val === 7) {
-    // Change this line
-    return 'Equal';
-  }
-  return 'Not Equal';
+	if (val === 7) {
+		// Change this line
+		return 'Equal';
+	}
+	return 'Not Equal';
 }
 
 testStrict(10);
@@ -535,11 +535,11 @@ testStrict(10);
 
 // Setup
 function compareEquality(a, b) {
-  if (a === b) {
-    // Change this line
-    return 'Equal';
-  }
-  return 'Not Equal';
+	if (a === b) {
+		// Change this line
+		return 'Equal';
+	}
+	return 'Not Equal';
 }
 
 compareEquality(10, '10');
@@ -548,11 +548,11 @@ compareEquality(10, '10');
 
 // Setup
 function testNotEqual(val) {
-  if (val != 99) {
-    // Change this line
-    return 'Not Equal';
-  }
-  return 'Equal';
+	if (val != 99) {
+		// Change this line
+		return 'Not Equal';
+	}
+	return 'Equal';
 }
 
 testNotEqual(10);
@@ -561,11 +561,11 @@ testNotEqual(10);
 
 // Setup
 function testStrictNotEqual(val) {
-  if (val !== 17) {
-    // Change this line
-    return 'Not Equal';
-  }
-  return 'Equal';
+	if (val !== 17) {
+		// Change this line
+		return 'Not Equal';
+	}
+	return 'Equal';
 }
 
 testStrictNotEqual(10);
@@ -573,17 +573,17 @@ testStrictNotEqual(10);
 // 63 test
 
 function testGreaterThan(val) {
-  if (val > 100) {
-    // Change this line
-    return 'Over 100';
-  }
+	if (val > 100) {
+		// Change this line
+		return 'Over 100';
+	}
 
-  if (val > 10) {
-    // Change this line
-    return 'Over 10';
-  }
+	if (val > 10) {
+		// Change this line
+		return 'Over 10';
+	}
 
-  return '10 or Under';
+	return '10 or Under';
 }
 
 testGreaterThan(10);
@@ -591,17 +591,17 @@ testGreaterThan(10);
 // 64 test
 
 function testGreaterOrEqual(val) {
-  if (val >= 20) {
-    // Change this line
-    return '20 or Over';
-  }
+	if (val >= 20) {
+		// Change this line
+		return '20 or Over';
+	}
 
-  if (val >= 10) {
-    // Change this line
-    return '10 or Over';
-  }
+	if (val >= 10) {
+		// Change this line
+		return '10 or Over';
+	}
 
-  return 'Less than 10';
+	return 'Less than 10';
 }
 
 testGreaterOrEqual(10);
@@ -609,17 +609,17 @@ testGreaterOrEqual(10);
 // 65 test
 
 function testLessThan(val) {
-  if (val < 25) {
-    // Change this line
-    return 'Under 25';
-  }
+	if (val < 25) {
+		// Change this line
+		return 'Under 25';
+	}
 
-  if (val < 55) {
-    // Change this line
-    return 'Under 55';
-  }
+	if (val < 55) {
+		// Change this line
+		return 'Under 55';
+	}
 
-  return '55 or Over';
+	return '55 or Over';
 }
 
 testLessThan(10);
@@ -627,17 +627,17 @@ testLessThan(10);
 // 66 test
 
 function testLessOrEqual(val) {
-  if (val <= 12) {
-    // Change this line
-    return 'Smaller Than or Equal to 12';
-  }
+	if (val <= 12) {
+		// Change this line
+		return 'Smaller Than or Equal to 12';
+	}
 
-  if (val <= 24) {
-    // Change this line
-    return 'Smaller Than or Equal to 24';
-  }
+	if (val <= 24) {
+		// Change this line
+		return 'Smaller Than or Equal to 24';
+	}
 
-  return 'More Than 24';
+	return 'More Than 24';
 }
 
 testLessOrEqual(10);
@@ -645,14 +645,14 @@ testLessOrEqual(10);
 // 67 test
 
 function testLogicalAnd(val) {
-  // Only change code below this line
+	// Only change code below this line
 
-  if (val <= 50 && val >= 25) {
-    return 'Yes';
-  }
+	if (val <= 50 && val >= 25) {
+		return 'Yes';
+	}
 
-  // Only change code above this line
-  return 'No';
+	// Only change code above this line
+	return 'No';
 }
 
 testLogicalAnd(10);
@@ -660,14 +660,14 @@ testLogicalAnd(10);
 // 68 test
 
 function testLogicalOr(val) {
-  // Only change code below this line
+	// Only change code below this line
 
-  if (val < 10 || val > 20) {
-    return 'Outside';
-  }
+	if (val < 10 || val > 20) {
+		return 'Outside';
+	}
 
-  // Only change code above this line
-  return 'Inside';
+	// Only change code above this line
+	return 'Inside';
 }
 
 testLogicalOr(15);
@@ -675,17 +675,17 @@ testLogicalOr(15);
 // 69 test
 
 function testElse(val) {
-  var result = '';
-  // Only change code below this line
+	var result = '';
+	// Only change code below this line
 
-  if (val > 5) {
-    result = 'Bigger than 5';
-  } else {
-    result = '5 or Smaller';
-  }
+	if (val > 5) {
+		result = 'Bigger than 5';
+	} else {
+		result = '5 or Smaller';
+	}
 
-  // Only change code above this line
-  return result;
+	// Only change code above this line
+	return result;
 }
 
 testElse(4);
@@ -693,13 +693,13 @@ testElse(4);
 // 70 test
 
 function testElseIf(val) {
-  if (val > 10) {
-    return 'Greater than 10';
-  } else if (val < 5) {
-    return 'Smaller than 5';
-  } else {
-    return 'Between 5 and 10';
-  }
+	if (val > 10) {
+		return 'Greater than 10';
+	} else if (val < 5) {
+		return 'Smaller than 5';
+	} else {
+		return 'Between 5 and 10';
+	}
 }
 
 testElseIf(7);
@@ -707,13 +707,13 @@ testElseIf(7);
 // 71 test
 
 function orderMyLogic(val) {
-  if (val < 5) {
-    return 'Less than 5';
-  } else if (val < 10) {
-    return 'Less than 10';
-  } else {
-    return 'Greater than or equal to 10';
-  }
+	if (val < 5) {
+		return 'Less than 5';
+	} else if (val < 10) {
+		return 'Less than 10';
+	} else {
+		return 'Greater than or equal to 10';
+	}
 }
 
 orderMyLogic(7);
@@ -721,21 +721,21 @@ orderMyLogic(7);
 // 72 test
 
 function testSize(num) {
-  // Only change code below this line
-  if (num < 5) {
-    return 'Tiny';
-  } else if (num < 10) {
-    return 'Small';
-  } else if (num < 15) {
-    return 'Medium';
-  } else if (num < 20) {
-    return 'Large';
-  } else if (num >= 20) {
-    return 'Huge';
-  }
+	// Only change code below this line
+	if (num < 5) {
+		return 'Tiny';
+	} else if (num < 10) {
+		return 'Small';
+	} else if (num < 15) {
+		return 'Medium';
+	} else if (num < 20) {
+		return 'Large';
+	} else if (num >= 20) {
+		return 'Huge';
+	}
 
-  return 'Change Me';
-  // Only change code above this line
+	return 'Change Me';
+	// Only change code above this line
 }
 
 testSize(7);
@@ -743,34 +743,34 @@ testSize(7);
 // 73 test
 
 var names = [
-  'Hole-in-one!',
-  'Eagle',
-  'Birdie',
-  'Par',
-  'Bogey',
-  'Double Bogey',
-  'Go Home!',
+	'Hole-in-one!',
+	'Eagle',
+	'Birdie',
+	'Par',
+	'Bogey',
+	'Double Bogey',
+	'Go Home!',
 ];
 function golfScore(par, strokes) {
-  // Only change code below this line
-  if (strokes == 1) {
-    return names[0];
-  } else if (strokes <= par - 2) {
-    return names[1];
-  } else if (strokes == par - 1) {
-    return names[2];
-  } else if (strokes == par) {
-    return names[3];
-  } else if (strokes == par + 1) {
-    return names[4];
-  } else if (strokes == par + 2) {
-    return names[5];
-  } else if (strokes >= par + 3) {
-    return names[6];
-  }
+	// Only change code below this line
+	if (strokes == 1) {
+		return names[0];
+	} else if (strokes <= par - 2) {
+		return names[1];
+	} else if (strokes == par - 1) {
+		return names[2];
+	} else if (strokes == par) {
+		return names[3];
+	} else if (strokes == par + 1) {
+		return names[4];
+	} else if (strokes == par + 2) {
+		return names[5];
+	} else if (strokes >= par + 3) {
+		return names[6];
+	}
 
-  return 'Change Me';
-  // Only change code above this line
+	return 'Change Me';
+	// Only change code above this line
 }
 
 golfScore(5, 4);
@@ -778,25 +778,25 @@ golfScore(5, 4);
 // 74 test
 
 function caseInSwitch(val) {
-  var answer = '';
-  // Only change code below this line
-  switch (val) {
-    case 1:
-      return 'alpha';
-      break;
-    case 2:
-      return 'beta';
-      break;
-    case 3:
-      return 'gamma';
-      break;
-    case 4:
-      return 'delta';
-      break;
-  }
+	var answer = '';
+	// Only change code below this line
+	switch (val) {
+		case 1:
+			return 'alpha';
+			break;
+		case 2:
+			return 'beta';
+			break;
+		case 3:
+			return 'gamma';
+			break;
+		case 4:
+			return 'delta';
+			break;
+	}
 
-  // Only change code above this line
-  return answer;
+	// Only change code above this line
+	return answer;
 }
 
 caseInSwitch(1);
@@ -804,25 +804,25 @@ caseInSwitch(1);
 // 75 test
 
 function switchOfStuff(val) {
-  var answer = '';
-  // Only change code below this line
-  switch (val) {
-    case 'a':
-      return 'apple';
-      break;
-    case 'b':
-      return 'bird';
-      break;
-    case 'c':
-      return 'cat';
-      break;
-    default:
-      return 'stuff';
-      break;
-  }
+	var answer = '';
+	// Only change code below this line
+	switch (val) {
+		case 'a':
+			return 'apple';
+			break;
+		case 'b':
+			return 'bird';
+			break;
+		case 'c':
+			return 'cat';
+			break;
+		default:
+			return 'stuff';
+			break;
+	}
 
-  // Only change code above this line
-  return answer;
+	// Only change code above this line
+	return answer;
 }
 
 switchOfStuff(1);
@@ -830,27 +830,27 @@ switchOfStuff(1);
 // 76 test
 
 function sequentialSizes(val) {
-  var answer = '';
-  // Only change code below this line
-  switch (val) {
-    case 1:
-    case 2:
-    case 3:
-      answer = 'Low';
-      break;
-    case 4:
-    case 5:
-    case 6:
-      answer = 'Mid';
-      break;
-    case 7:
-    case 8:
-    case 9:
-      answer = 'High';
-  }
+	var answer = '';
+	// Only change code below this line
+	switch (val) {
+		case 1:
+		case 2:
+		case 3:
+			answer = 'Low';
+			break;
+		case 4:
+		case 5:
+		case 6:
+			answer = 'Mid';
+			break;
+		case 7:
+		case 8:
+		case 9:
+			answer = 'High';
+	}
 
-  // Only change code above this line
-  return answer;
+	// Only change code above this line
+	return answer;
 }
 
 sequentialSizes(1);
@@ -858,27 +858,27 @@ sequentialSizes(1);
 // 77 test
 
 function chainToSwitch(val) {
-  var answer = '';
-  // Only change code below this line
+	var answer = '';
+	// Only change code below this line
 
-  switch (val) {
-    case 'bob':
-      return 'Marley';
-      break;
-    case 42:
-      return 'The Answer';
-      break;
-    case 1:
-      return 'There is no #1';
-      break;
-    case 99:
-      return 'Missed me by this much!';
-      break;
-    case 7:
-      return 'Ate Nine';
-      break;
-  }
-  /*
+	switch (val) {
+		case 'bob':
+			return 'Marley';
+			break;
+		case 42:
+			return 'The Answer';
+			break;
+		case 1:
+			return 'There is no #1';
+			break;
+		case 99:
+			return 'Missed me by this much!';
+			break;
+		case 7:
+			return 'Ate Nine';
+			break;
+	}
+	/*
 		if (val === "bob") {
 			answer = "Marley";
 		} else if (val === 42) {
@@ -891,8 +891,8 @@ function chainToSwitch(val) {
 			answer = "Ate Nine";
 		}
 	*/
-  // Only change code above this line
-  return answer;
+	// Only change code above this line
+	return answer;
 }
 
 chainToSwitch(7);
@@ -900,17 +900,17 @@ chainToSwitch(7);
 // 78 test
 
 function isLess(a, b) {
-  // Only change code below this line
-  return a < b;
+	// Only change code below this line
+	return a < b;
 
-  /*
+	/*
 	if (a < b) {
 		return true;
 	} else {
 		return false;
 	}
 	*/
-  // Only change code above this line
+	// Only change code above this line
 }
 
 isLess(10, 15);
@@ -919,14 +919,14 @@ isLess(10, 15);
 
 // Setup
 function abTest(a, b) {
-  // Only change code below this line
-  if (a < 0 || b < 0) {
-    return undefined;
-  }
+	// Only change code below this line
+	if (a < 0 || b < 0) {
+		return undefined;
+	}
 
-  // Only change code above this line
+	// Only change code above this line
 
-  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+	return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
 }
 
 abTest(2, 2);
@@ -936,30 +936,30 @@ abTest(2, 2);
 var count = 0;
 
 function cc(card) {
-  // Only change code below this line
-  switch (card) {
-    case 2:
-    case 3:
-    case 4:
-    case 5:
-    case 6:
-      count++;
-      break;
-    case 10:
-    case 'A':
-    case 'J':
-    case 'K':
-    case 'Q':
-      count--;
-      break;
-  }
-  var holdBet = 'Hold';
-  if (count > 0) {
-    holdBet = 'Bet';
-  }
+	// Only change code below this line
+	switch (card) {
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+			count++;
+			break;
+		case 10:
+		case 'A':
+		case 'J':
+		case 'K':
+		case 'Q':
+			count--;
+			break;
+	}
+	var holdBet = 'Hold';
+	if (count > 0) {
+		holdBet = 'Bet';
+	}
 
-  return count + ' ' + holdBet;
-  // Only change code above this line
+	return count + ' ' + holdBet;
+	// Only change code above this line
 }
 
 cc(2);
@@ -971,22 +971,22 @@ cc('A');
 // 81 test
 
 var myDog = {
-  // Only change code below this line
-  name: 'doges',
-  legs: 4,
-  tails: 10,
-  friends: ['yes', 'dog'],
+	// Only change code below this line
+	name: 'doges',
+	legs: 4,
+	tails: 10,
+	friends: ['yes', 'dog'],
 
-  // Only change code above this line
+	// Only change code above this line
 };
 
 // 82 test
 
 // Setup
 var testObj = {
-  hat: 'ballcap',
-  shirt: 'jersey',
-  shoes: 'cleats',
+	hat: 'ballcap',
+	shirt: 'jersey',
+	shoes: 'cleats',
 };
 
 // Only change code below this line
@@ -998,9 +998,9 @@ var shirtValue = testObj.shirt; // Change this line
 
 // Setup
 var testObj = {
-  'an entree': 'hamburger',
-  'my side': 'veggies',
-  'the drink': 'water',
+	'an entree': 'hamburger',
+	'my side': 'veggies',
+	'the drink': 'water',
 };
 
 // Only change code below this line
@@ -1012,9 +1012,9 @@ var drinkValue = testObj['the drink']; // Change this line
 
 // Setup
 var testObj = {
-  12: 'Namath',
-  16: 'Montana',
-  19: 'Unitas',
+	12: 'Namath',
+	16: 'Montana',
+	19: 'Unitas',
 };
 
 // Only change code below this line
@@ -1026,10 +1026,10 @@ var player = testObj[playerNumber]; // Change this line
 
 // Setup
 var myDog = {
-  name: 'Coder',
-  legs: 4,
-  tails: 1,
-  friends: ['freeCodeCamp Campers'],
+	name: 'Coder',
+	legs: 4,
+	tails: 1,
+	friends: ['freeCodeCamp Campers'],
 };
 
 // Only change code below this line
@@ -1039,10 +1039,10 @@ myDog.name = 'Happy Coder';
 // 86 test
 
 var myDog = {
-  name: 'Happy Coder',
-  legs: 4,
-  tails: 1,
-  friends: ['freeCodeCamp Campers'],
+	name: 'Happy Coder',
+	legs: 4,
+	tails: 1,
+	friends: ['freeCodeCamp Campers'],
 };
 
 myDog.bark = 'woof';
@@ -1051,11 +1051,11 @@ myDog.bark = 'woof';
 
 // Setup
 var myDog = {
-  name: 'Happy Coder',
-  legs: 4,
-  tails: 1,
-  friends: ['freeCodeCamp Campers'],
-  bark: 'woof',
+	name: 'Happy Coder',
+	legs: 4,
+	tails: 1,
+	friends: ['freeCodeCamp Campers'],
+	bark: 'woof',
 };
 
 // Only change code below this line
@@ -1066,21 +1066,21 @@ delete myDog.tails;
 
 // Setup
 function phoneticLookup(val) {
-  var result = '';
+	var result = '';
 
-  // Only change code below this line
-  var lookup = {
-    alpha: 'Adams',
-    bravo: 'Boston',
-    charlie: 'Chicago',
-    delta: 'Denver',
-    echo: 'Easy',
-    foxtrot: 'Frank',
-  };
-  result = lookup[val];
+	// Only change code below this line
+	var lookup = {
+		alpha: 'Adams',
+		bravo: 'Boston',
+		charlie: 'Chicago',
+		delta: 'Denver',
+		echo: 'Easy',
+		foxtrot: 'Frank',
+	};
+	result = lookup[val];
 
-  // Only change code above this line
-  return result;
+	// Only change code above this line
+	return result;
 }
 
 phoneticLookup('charlie');
@@ -1088,45 +1088,45 @@ phoneticLookup('charlie');
 // 89 test
 
 function checkObj(obj, checkProp) {
-  // Only change code below this line
-  if (obj.hasOwnProperty(checkProp)) {
-    return obj[checkProp];
-  }
-  return 'Not Found';
-  // Only change code above this line
+	// Only change code below this line
+	if (obj.hasOwnProperty(checkProp)) {
+		return obj[checkProp];
+	}
+	return 'Not Found';
+	// Only change code above this line
 }
 
 // 90 test
 
 var myMusic = [
-  {
-    artist: 'Billy Joel',
-    title: 'Piano Man',
-    release_year: 1973,
-    formats: ['CD', '8T', 'LP'],
-    gold: true,
-  },
-  {
-    artist: 'Billy Joel',
-    title: 'Piano Man',
-    release_year: 1973,
-    formats: ['CD', '8T', 'LP'],
-    gold: true,
-  },
+	{
+		artist: 'Billy Joel',
+		title: 'Piano Man',
+		release_year: 1973,
+		formats: ['CD', '8T', 'LP'],
+		gold: true,
+	},
+	{
+		artist: 'Billy Joel',
+		title: 'Piano Man',
+		release_year: 1973,
+		formats: ['CD', '8T', 'LP'],
+		gold: true,
+	},
 ];
 
 // 91 test
 
 var myStorage = {
-  car: {
-    inside: {
-      'glove box': 'maps',
-      'passenger seat': 'crumbs',
-    },
-    outside: {
-      trunk: 'jack',
-    },
-  },
+	car: {
+		inside: {
+			'glove box': 'maps',
+			'passenger seat': 'crumbs',
+		},
+		outside: {
+			trunk: 'jack',
+		},
+	},
 };
 
 var gloveBoxContents = myStorage.car.inside['glove box'];
@@ -1134,14 +1134,14 @@ var gloveBoxContents = myStorage.car.inside['glove box'];
 // 92 test
 
 var myPlants = [
-  {
-    type: 'flowers',
-    list: ['rose', 'tulip', 'dandelion'],
-  },
-  {
-    type: 'trees',
-    list: ['fir', 'pine', 'birch'],
-  },
+	{
+		type: 'flowers',
+		list: ['rose', 'tulip', 'dandelion'],
+	},
+	{
+		type: 'trees',
+		list: ['fir', 'pine', 'birch'],
+	},
 ];
 
 var secondTree = myPlants[1].list[1];
@@ -1150,41 +1150,41 @@ var secondTree = myPlants[1].list[1];
 
 // Setup
 var recordCollection = {
-  2548: {
-    albumTitle: 'Slippery When Wet',
-    artist: 'Bon Jovi',
-    tracks: ['Let It Rock', 'You Give Love a Bad Name'],
-  },
-  2468: {
-    albumTitle: '1999',
-    artist: 'Prince',
-    tracks: ['1999', 'Little Red Corvette'],
-  },
-  1245: {
-    artist: 'Robert Palmer',
-    tracks: [],
-  },
-  5439: {
-    albumTitle: 'ABBA Gold',
-  },
+	2548: {
+		albumTitle: 'Slippery When Wet',
+		artist: 'Bon Jovi',
+		tracks: ['Let It Rock', 'You Give Love a Bad Name'],
+	},
+	2468: {
+		albumTitle: '1999',
+		artist: 'Prince',
+		tracks: ['1999', 'Little Red Corvette'],
+	},
+	1245: {
+		artist: 'Robert Palmer',
+		tracks: [],
+	},
+	5439: {
+		albumTitle: 'ABBA Gold',
+	},
 };
 
 // Only change code below this line
 function updateRecords(records, id, prop, value) {
-  if (prop !== 'tracks' && value !== '') {
-    records[id][prop] = value;
-  } else if (
-    prop === 'tracks' &&
-    records[id].hasOwnProperty('tracks') === false
-  ) {
-    records[id][prop] = [value];
-  } else if (prop === 'tracks' && value !== '') {
-    records[id][prop].push(value);
-  } else if (value === '') {
-    delete records[id][prop];
-  }
+	if (prop !== 'tracks' && value !== '') {
+		records[id][prop] = value;
+	} else if (
+		prop === 'tracks' &&
+		records[id].hasOwnProperty('tracks') === false
+	) {
+		records[id][prop] = [value];
+	} else if (prop === 'tracks' && value !== '') {
+		records[id][prop].push(value);
+	} else if (value === '') {
+		delete records[id][prop];
+	}
 
-  return records;
+	return records;
 }
 
 updateRecords(recordCollection, 5439, 'artist', 'ABBA');
@@ -1198,8 +1198,8 @@ var myArray = [];
 
 var i = 5;
 while (i >= 0) {
-  myArray.push(i);
-  i--;
+	myArray.push(i);
+	i--;
 }
 
 // 95 test
@@ -1210,7 +1210,7 @@ var myArray = [];
 // Only change code below this line
 
 for (var i = 1; i < 6; i++) {
-  myArray.push(i);
+	myArray.push(i);
 }
 
 // 96 test
@@ -1220,7 +1220,7 @@ var myArray = [];
 
 // Only change code below this line
 for (var i = 1; i < 10; i += 2) {
-  myArray.push(i);
+	myArray.push(i);
 }
 
 // 97 test
@@ -1230,7 +1230,7 @@ var myArray = [];
 
 // Only change code below this line
 for (var i = 9; i > 0; i -= 2) {
-  myArray.push(i);
+	myArray.push(i);
 }
 
 // 98 test
@@ -1241,28 +1241,28 @@ var myArr = [2, 3, 4, 5, 6];
 // Only change code below this line
 var total = 0;
 for (var i = 0; i < myArr.length; i++) {
-  console.log((total += myArr[i]));
+	console.log((total += myArr[i]));
 }
 
 // 99 test
 
 function multiplyAll(arr) {
-  var product = 1;
-  // Only change code below this line
-  for (var i = 0; i < arr.length; i++) {
-    for (var j = 0; j < arr[i].length; j++) {
-      product *= arr[i][j];
-    }
-  }
+	var product = 1;
+	// Only change code below this line
+	for (var i = 0; i < arr.length; i++) {
+		for (var j = 0; j < arr[i].length; j++) {
+			product *= arr[i][j];
+		}
+	}
 
-  // Only change code above this line
-  return product;
+	// Only change code above this line
+	return product;
 }
 
 multiplyAll([
-  [1, 2],
-  [3, 4],
-  [5, 6, 7],
+	[1, 2],
+	[3, 4],
+	[5, 6, 7],
 ]);
 
 // 100 test
@@ -1273,28 +1273,149 @@ var i = 10;
 
 // Only change code below this line
 do {
-  myArray.push(i);
-  i++;
+	myArray.push(i);
+	i++;
 } while (i < 11);
 
 // 101 test
 
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line
+do {
+	myArray.push(i);
+	i++;
+} while (i < 5)
+
 // 102 test
+
+// Setup
+var contacts = [
+	{
+		"firstName": "Akira",
+		"lastName": "Laine",
+		"number": "0543236543",
+		"likes": ["Pizza", "Coding", "Brownie Points"]
+	},
+	{
+		"firstName": "Harry",
+		"lastName": "Potter",
+		"number": "0994372684",
+		"likes": ["Hogwarts", "Magic", "Hagrid"]
+	},
+	{
+		"firstName": "Sherlock",
+		"lastName": "Holmes",
+		"number": "0487345643",
+		"likes": ["Intriguing Cases", "Violin"]
+	},
+	{
+		"firstName": "Kristian",
+		"lastName": "Vos",
+		"number": "unknown",
+		"likes": ["JavaScript", "Gaming", "Foxes"]
+	}
+];
+
+
+function lookUpProfile(name, prop) {
+	// Only change code below this line
+	for (let i = 0; i < contacts.length; i++) {
+		if (contacts[i].firstName === name) {
+			return contacts[i][prop] || "No such property"
+		}
+
+	} return "No such contact"
+	// Only change code above this line
+}
+
+lookUpProfile("Akira", "likes");
 
 // 103 test
 
+function randomFraction() {
+
+	// Only change code below this line
+
+	return Math.random();
+
+	// Only change code above this line
+}
+
 // 104 test
+
+function randomWholeNum() {
+
+	// Only change code below this line
+
+	return Math.floor(Math.random() * 10);
+}
 
 // 105 test
 
+function randomRange(myMin, myMax) {
+	// Only change code below this line
+
+	return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+	// Only change code above this line
+}
+
 // 106 test
+
+function convertToInteger(str) {
+	return parseInt(str)
+}
+
+convertToInteger("56");
 
 // 107 test
 
+function convertToInteger(str) {
+	return parseInt(str, 2)
+}
+
+convertToInteger("10011");
+
 // 108 test
+
+function checkEqual(a, b) {
+	return a === b ? "Equal" : "Not Equal"
+}
+
+checkEqual(1, 2);
 
 // 109 test
 
+function checkSign(num) {
+	return (num === 0) ? "zero" : (num > 0) ? "positive" : "negative"
+}
+
+checkSign(10);
+
 // 110 test
 
+// Only change code below this line
+function countdown(n) {
+	if (n < 1) {
+		return []
+	} else {
+		const tmpArr = countdown(n - 1)
+		tmpArr.unshift(n)
+		return tmpArr
+	}
+	return;
+}
+// Only change code above this line
+
 // 111 test
+
+function rangeOfNumbers(startNum, endNum) {
+	if (startNum <= endNum) {
+		const arr = rangeOfNumbers(startNum + 1, endNum)
+		arr.unshift(startNum)
+		return arr
+	}
+	return [];
+};
