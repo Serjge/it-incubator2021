@@ -60,23 +60,63 @@ let result = quoteSample.match(myRegex); // Change this line
 
 //test11
 
+let quoteSample = "3 blind mice.";
+let myRegex = /[^0-9aeiou]/gi; // Change this line
+let result = quoteSample.match(myRegex); // Change this line
+
 //test12
+
+let difficultSpelling = "Mississippi";
+let myRegex = /s+/gi; // Change this line
+let result = difficultSpelling.match(myRegex);
 
 //test13
 
+// Only change code below this line
+let chewieRegex = /Aa*/; // Change this line
+// Only change code above this line
+
+let result = chewieQuote.match(chewieRegex);
+
 //test14
+
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<.*?>/gi; // Change this line
+let result = text.match(myRegex);
 
 //test15
 
+let reCriminals = /C+/g; // Change this line
+
 //test16
+
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/; // Change this line
+let result = calRegex.test(rickyAndCal);
 
 //test17
 
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /caboose$/; // Change this line
+let result = lastRegex.test(caboose);
+
 //test18
+
+let quoteSample = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /\w/g; // Change this line
+let result = quoteSample.match(alphabetRegexV2).length;
 
 //test19
 
+let quoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /\W/g; // Change this line
+let result = quoteSample.match(nonAlphabetRegex).length;
+
 //test20
+
+let movieName = "2001: A Space Odyssey";
+let numRegex = /\d/g; // Change this line
+let result = movieName.match(numRegex).length;
 
 //test21
 
